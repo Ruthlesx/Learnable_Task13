@@ -273,6 +273,14 @@ button:hover {
   margin-top: 100px;
 }
 
+.save-btn {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin: 20px;
+  width: 100%;
+}
+
 /* Animations */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }

@@ -60,8 +60,9 @@ const UserForm: React.FC<UserFormProps> = ({ user }) => {
         <input type="text" value={city} onChange={(e) => setCity( e.target.value )} placeholder="Enter City"  />
         <input  type="text" value={street} onChange={(e) => setStreet(e.target.value)} placeholder="Enter Street" />
 
-        <button type='submit'>  Save</button>
-
+        <div className="save-btn">
+        <button  type='submit'>  Save</button>
+        </div>
     </form>  
     </div>
     );
